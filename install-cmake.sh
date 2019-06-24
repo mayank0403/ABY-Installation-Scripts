@@ -6,13 +6,13 @@ tar -xvf cmake-3.14.2.tar.gz
 
 cd cmake-3.14.2/
 
-sudo ./bootstrap
+./bootstrap
 
-sudo make -j4
+make -j4
 
-sudo make install
+make install
 
-sudo cp /usr/local/bin/cmake /usr/bin/cmake
+cp /usr/local/bin/cmake /usr/bin/cmake
 
 cmake --version
 
