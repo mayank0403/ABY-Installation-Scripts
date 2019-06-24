@@ -4,9 +4,13 @@ sudo add-apt-repository ppa:ubuntu-toolchain-r/test
 
 sudo apt-get update
 
-sudo apt-get install g++-8
+sudo apt-get install -y g++-8
 
-sudo apt-get install make cmake libgmp-dev libssl-dev libboost-all-dev
+sudo apt-get install -y make 
+sudo apt-get install -y cmake 
+sudo apt-get install -y libgmp-dev 
+sudo apt-get install -y libssl-dev 
+sudo apt-get install -y libboost-all-dev
 
 wget "https://dl.bintray.com/boostorg/release/1.66.0/source/boost_1_66_0.tar.gz"
 
