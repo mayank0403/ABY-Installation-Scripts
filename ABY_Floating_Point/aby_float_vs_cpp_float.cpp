@@ -293,6 +293,7 @@ int main(int argc, char** argv) {
 			//print_bits_long_type(&res_aby, true);
 			cout<<"CPP gives: "<<res_cpp<<endl;;
 			//print_bits_long_type(&res_cpp, true);
+			cout<<"-1 for true mismatch accounting of denormals: "<<compare_floats(&res_aby, &res_cpp)<<endl;
 		}
 		else{
 			//cout<<"ABY: "<<res_aby<<" | CPP: "<<res_cpp<<endl;
