@@ -10,7 +10,7 @@ apt-get install -y make
 apt-get install -y cmake 
 apt-get install -y libgmp-dev 
 apt-get install -y libssl-dev 
-apt-get install -y libboost-all-dev
+#apt-get install -y libboost-all-dev
 
 wget "https://dl.bintray.com/boostorg/release/1.66.0/source/boost_1_66_0.tar.gz"
 
